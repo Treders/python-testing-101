@@ -47,6 +47,7 @@ jobs:
             --token $TESTMO_TOKEN \
             --instance $TESTMO_URL \
             --project-id 1 \
+            --name "CircleCI execution" \
             --results results/test-results.xml
 
 # Orchestrate jobs using workflows
