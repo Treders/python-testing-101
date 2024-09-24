@@ -27,6 +27,7 @@ jobs:
           command: |
             python --version
             pip install pytest
+            sudo apt-get install nodejs npm
             ls
             cd example-py-pytest
             python -m pytest --junitxml=results/test-results.xml
