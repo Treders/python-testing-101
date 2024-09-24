@@ -21,7 +21,8 @@ jobs:
       - run:
           name: "Say hello"
           command: |
-            sudo apt-get install python-pip
+            python --version
+            sudo apt-get install python3-pip
             pip install pytest
             ls
             cd example-py-pytest
