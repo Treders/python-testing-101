@@ -46,6 +46,7 @@ jobs:
             testmo automation:run:submit \
             --token $TESTMO_TOKEN \
             --instance $TESTMO_URL \
+            --project-id 1 \
             --results results/test-results.xml
 
 # Orchestrate jobs using workflows
