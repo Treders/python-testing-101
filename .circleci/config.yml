@@ -47,7 +47,7 @@ jobs:
             --project-id 1 \
             --source "regression" \
             --name "CircleCI execution" \
-            --results results/test-results.xml
+            --results example-py-pytest/results/test-results.xml
 
 # Orchestrate jobs using workflows
 # See: https://circleci.com/docs/workflows/ & https://circleci.com/docs/configuration-reference/#workflows
