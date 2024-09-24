@@ -43,7 +43,6 @@ jobs:
           command: |
             TESTMO_URL="https://adam-walaszczyk.testmo.net/"
             testmo automation:run:submit \
-            --token $TESTMO_TOKEN \
             --instance $TESTMO_URL \
             --project-id 1 \
             --source "regression" \
