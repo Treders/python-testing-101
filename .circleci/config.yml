@@ -37,7 +37,7 @@ jobs:
             python -m pytest --junitxml=results/test-results.xml
       - run:
           name: Install Testmo CLI
-          command: npm install -g @testmo/testmo-cli
+          command: sudo npm install -g @testmo/testmo-cli
       - run:
           name: Submit test results to Testmo
           command: |
