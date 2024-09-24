@@ -26,6 +26,7 @@ jobs:
           name: "Tests"
           command: |
             python --version
+            pip install pytest
             ls
             cd example-py-pytest
             python -m pytest
