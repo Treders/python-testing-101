@@ -45,8 +45,8 @@ jobs:
             testmo automation:run:submit \
             --instance $TESTMO_URL \
             --project-id 1 \
-            --source "regression" \
-            --name "CircleCI execution" \
+            --source "smoke" \
+            --name "Smoke execution" \
             --results example-py-pytest/results/test-results.xml
 
 # Orchestrate jobs using workflows
