@@ -22,7 +22,6 @@ jobs:
           name: "Say hello"
           command: |
             ls
-            cd python-testing-101
             cd example-py-pytest
             python -m pytest
 
