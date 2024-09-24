@@ -20,14 +20,12 @@ jobs:
     steps:
       # Checkout the code as the first step.
       - checkout
-      - python/install-packages:
-          pkg-manager: pip
+      # - python/install-packages:
+      #     pkg-manager: pip
       - run:
           name: "Tests"
           command: |
             python --version
-            sudo apt-get install python3-pip
-            pip install pytest
             ls
             cd example-py-pytest
             python -m pytest
