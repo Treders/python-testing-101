@@ -38,6 +38,7 @@ jobs:
       - run:
           name: Install Testmo CLI
           command: sudo npm install -g @testmo/testmo-cli
+          when: always
       - run:
           name: Submit test results to Testmo
           command: |
@@ -48,6 +49,7 @@ jobs:
             --source "smoke" \
             --name "Smoke execution" \
             --results example-py-pytest/results/test-results.xml
+          when: always
 
 # Orchestrate jobs using workflows
 # See: https://circleci.com/docs/workflows/ & https://circleci.com/docs/configuration-reference/#workflows
