@@ -5,6 +5,7 @@ Each function in this module is a test case.
 """
 
 import pytest
+import time
 from com.automationpanda.example.calc_func import *
 
 NUMBER_1 = 3.0
